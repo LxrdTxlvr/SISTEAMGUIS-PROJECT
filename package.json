@@ -11,3 +11,4 @@
     "build:mobile": "cd mobile && npm run android"
   }
 }
+

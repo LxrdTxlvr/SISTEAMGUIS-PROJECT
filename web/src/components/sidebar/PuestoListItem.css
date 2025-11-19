@@ -1,0 +1,66 @@
+.puesto-list-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background-color: white;
+}
+
+.puesto-list-item:hover {
+  background-color: #f9fafb;
+}
+
+.puesto-list-item.selected {
+  background-color: #eff6ff;
+  border-left: 4px solid #0066FF;
+}
+
+.puesto-number {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #374151;
+  min-width: 50px;
+}
+
+.puesto-details {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.puesto-name {
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.puesto-vendor {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.puesto-status {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+}
+
+.puesto-status.libre {
+  background-color: #ecfdf5;
+  color: #059669;
+}
+
+.puesto-status.ocupado {
+  background-color: #eff6ff;
+  color: #2563eb;
+}
+
+.icon {
+  font-size: 0.6rem;
+}
